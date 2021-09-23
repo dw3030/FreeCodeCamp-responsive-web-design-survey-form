@@ -1,0 +1,60 @@
+body {
+  font-family: 'Oswald', sans-serif;
+    background-color: #ffe0e7;
+}
+
+h1, #title {
+  color: purple;
+  text-align: center;
+}
+
+
+#description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+#name-label, #email-label, #number-label, #dropdown-label, #overall, #positive, #negative, #indifferent, #attitude, #leaving, #layoff, #merger, #quit, #textlabel, #submit-label {
+  font-family: 'Oswald', sans-serif;
+  text-weight: bold;
+  font-size: 18px;
+  margin-left: 25%;
+}
+
+/*form stuff*/
+
+.form-control {
+  /* alter this to personalize */
+  display: block;
+  margin-left: 25%;
+  width: 50%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #044240;
+  background-color: #e6fffe;
+  background-clip: padding-box;
+  border: 2px solid #000;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+}
+
+#textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  margin-left: 25%;
+  box-sizing: border-box;
+}
+
+
+.form-class {
+  margin: 0 auto 1.25rem auto;
+  padding: 2.25rem;
+  }
+
+p {
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}

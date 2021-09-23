@@ -1,0 +1,94 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE HTML>
+</html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-     scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?                                   family=Indie+Flower&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="title">Corporate Career Survey Form</h1>
+
+    <p id="description">Please fill out this brief survey about your experiences working in a corporate environment</p>
+  
+    <form id="survey-form">  
+      <div class="form-class">
+        <label id="name-label" for="name">Name</label>
+          <input 
+          type="text"
+          name="name"
+         id="name"
+         class="form-control"
+         placeholder="Enter your name here"
+         required     
+         />       
+        <br>
+        
+        <label id="email-label" for="email">Email</label>
+          <input 
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your email (email@address.com)"
+          required     
+          />       
+        <br>
+      
+        <label id="number-label" for="age">Age (Optional)</label>
+          <input 
+          type="number"
+          name="age"
+          min="15"
+          max="75"       
+          id="number"
+          class="form-control"
+          placeholder="Enter your age"
+          />    
+       <br>
+      
+        <label id="dropdown-label" for="experience">Years of Corporate Experience (Choose From the Dropdown Menu):</label>
+         
+          <select id="dropdown", name="experience", class="form-control">
+            <option value = "0 - 5 Years">0 - 5 Years</option>
+            <option value = "6 - 10 Years">6 - 10 Years</option>
+            <option value = "11 - 15 Years">11 - 15 Years</option>
+          </select>
+        <br/>
+        
+        <label id="overall" for="overall">What is your overall attitude to working in a corporate environment?</label></br>
+          <input type="radio" id="positive" name="attitude" value="positive">
+            <label for="posCorp">Positive, I'd do it again</label><br>
+          <input type="radio" id="negative" name="attitude" value="negative">
+            <label for="negCorp">Negative, I'll never do it again</label><br>
+          <input type="radio" id="indifferent" name="attitude"                           value="indifferent">
+            <label for="indifferent">I'm good either way</label>
+        <br/>
+        <br/>
+        <label id="leaving" for="leaving">Have you ever experienced any of the following?</label></br>
+          <input type="checkbox" id="layoff" name="leaves" value="layoff">
+            <label for="layoff">Being laid off from a corporation or large organization</label><br>
+          <input type="checkbox" id="merger" name="leaves" value="merger">
+            <label for="merger">Transitioning to working though and after a merger</label><br>
+          <input type="checkbox" id="quit" name="leaves" value="quit">
+            <label for="quit">Resigning from a corporate job</label><br>
+    
+          <br/>
+      
+        <label id="textlabel" for="textarea">Please write a brief summary of your experiences here</label>
+    <textarea id="textarea" name="textarea" rows="100" cols="50" placeholder="Write something here..."></textarea>
+      
+        
+        <br/>
+        <br/>
+       <label id="submit-label" for="submit">Thanks! Submit your Survey here</label>
+          <input id="submit" type="submit" value="Submit"> 
+       </div>
+      
+     </form>  
+   </body>
+</html>
